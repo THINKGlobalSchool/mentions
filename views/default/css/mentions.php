@@ -24,6 +24,10 @@
 	-webkit-border-radius: 8px;
 }
 
+.mentions-user-link span:before {
+	content: "@";
+}
+
 .mentions-user-link:hover {
 	color: white;
 	background-color: #25AAE1;

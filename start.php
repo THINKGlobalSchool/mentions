@@ -81,7 +81,7 @@ function mentions_preg_callback($matches) {
 			));
 			$replace = elgg_view('output/url', array(
 				'href' => $user->getURL(),
-				'text' => $icon . $user->name,
+				'text' => $icon . "<span>" . $user->username . "</span>",
 				'class' => 'mentions-user-link'
 			));
 		} else {
